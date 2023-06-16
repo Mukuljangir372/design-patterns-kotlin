@@ -4,7 +4,7 @@ package behavioural
  * Observable pattern used for observe the changes of state using observer.
  */
 
-fun main(args: Array<String>) {
+fun main() {
     val station = WeatherStation()
 
     val observer = StationMaster()
@@ -20,22 +20,22 @@ fun main(args: Array<String>) {
 }
 
 // Observable is responsible for adding, removing, notify observers.
-interface Observable {
+private interface Observable {
     fun addObserver(observer: Observer)
     fun removeObserver(observer: Observer)
     fun notifyAllObservers()
 }
 
 // Observer is one who gets changes of state
-interface Observer {
+private interface Observer {
     fun onChange(value: Int)
 }
 
-interface Station {
+private interface Station {
     fun setTemp(temp: Int)
 }
 
-class WeatherStation : Station, Observable {
+private class WeatherStation : Station, Observable {
     private val observers = mutableListOf<Observer>()
 
     private var temp: Int = 0
@@ -57,7 +57,7 @@ class WeatherStation : Station, Observable {
     }
 }
 
-class StationMaster : Observer {
+private class StationMaster : Observer {
     override fun onChange(value: Int) {
         println("onChange - $value")
     }
