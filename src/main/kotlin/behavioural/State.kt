@@ -5,6 +5,10 @@ package behavioural
  * which is used for presenting a state.
  */
 
+fun main() {
+
+}
+
 private sealed interface LoginState {
     object Active : LoginState
     object InActive : LoginState
