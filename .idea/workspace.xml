@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67675116-dbd0-41f2-a9c1-63bea8f5cfe3" name="Changes" comment="chore">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/Builder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/Factory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/Singleton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/Adapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/Decorator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/Facade.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/Proxy.kt" afterDir="false" />
+    <list default="true" id="67675116-dbd0-41f2-a9c1-63bea8f5cfe3" name="Changes" comment="structural patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/Flyweight.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -155,7 +149,8 @@
     <MESSAGE value="visitor and mediator pattern" />
     <MESSAGE value="memento pattern" />
     <MESSAGE value="chore" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore" />
+    <MESSAGE value="structural patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="structural patterns" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
