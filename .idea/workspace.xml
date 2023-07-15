@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67675116-dbd0-41f2-a9c1-63bea8f5cfe3" name="Changes" comment="visitor and mediator pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/Memento.kt" afterDir="false" />
+    <list default="true" id="67675116-dbd0-41f2-a9c1-63bea8f5cfe3" name="Changes" comment="memento pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,8 @@
     <MESSAGE value="merge" />
     <MESSAGE value="chain of responsibility pattern" />
     <MESSAGE value="visitor and mediator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="visitor and mediator pattern" />
+    <MESSAGE value="memento pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="memento pattern" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
